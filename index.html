@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<meta http-equiv=”Content-Type” content=”text/html; charset=utf-8″>
+<title>Duoqixiaozei blog</title>
+<script type="text/javascript">
+        window.onload = function(){
+            
+            document.onkeydown = function (){
+                var e = window.event || arguments[0];
+                
+                if(e.keyCode == 123){
+                    return false;
+                
+                }else if((e.ctrlKey) && (e.shiftKey) && (e.keyCode == 73)){
+                    return false;
+                
+                }else if((e.shiftKey) && (e.keyCode == 121)){
+                    return false;
+                
+                }else if((e.ctrlKey) && (e.keyCode == 85)){
+                    return false;
+                }
+            };
+            
+            document.oncontextmenu = function (){
+                return false;
+            }
+        }
+
+    </script>
+<style>
+.name{
+		color:#00FF00;
+		font-size15px;
+
+
+}
+.test{ 	
+		color:#00FF00;
+		font-size:20px;
+	}
+.test2{ font-size:25px}
+.first{ font-size:20px}
+.second{ font-size:20px}
+.one{ 	font-size:20px;
+	position:absolute;
+	width:100%;
+	height:100%;
+	margin:0 auto;
+	boxder:1px solid #cc;
+	backgroud:#000;
+	filter:alpha(opacity:40);
+	opacity:0;
+	-moz-opacity:0;
+	-khtml-opacity:0;}
+.two{  font-size:20px;
+	position:absolute;
+	width:100%;
+	height:100%;
+	margin:0 auto;
+	boxder:1px solid #cc;
+	backgroud:#000;
+	filter:alpha(opacity:40);
+	opacity:0;
+	-moz-opacity:0;
+	-khtml-opacity:0;	
+	}
+</style>
+<head>
+
+	
+	<audio autoplay="autoplay"  preload="auto"
+		src="img/login.mp3">
+		你的浏览器不支持audio标签
+	</audio>
+</head>
+<body style="background-color:#000000">
+	
+
+		<font size="20" color="#00FF00"><center>WELCOME TO DUOQIXAOZEI!<center></br></font>
+		<div>
+		<div class="name";center>
+				Inpute password :
+				</div>
+<div><center>	
+<input type="password" id="pw" 
+<input type="button" value="LOGIN" onclick="fun()" />
+</center></div>
+<script>
+function fun()
+{
+var i,j;
+i="514901383";
+j=document.getElementById("pw").value;
+if(j==i){location.href="https://duoqixiaozei.github.io";}
+else{alert("Password Failed!Please Input Again!");}
+}
+</script>
+	<div class="test">Double click on the text box to log in</div>
+	<div class="test2"><a href="https://blog.csdn.net/qq_42767842">404 Not found</a></div>
+	<div class="first"><a href="https://duoqixiaozei.github.io/admin/img/one.jpg"><center>Try</center></a></div>
+	<div class="second"><a href="https://duoqixiaozei.github.io/admin/img/second.jpg"><center>Try again</center></a></div>	
+	<div class="one"><img src="img/one.jpg"><center>Try</center></div>
+	<div class="two"><img src="img/second.jpg"><center>Try again!</center></div>
+</body>
+
+</html>
